@@ -17,6 +17,10 @@
 		52D0487228B5BC7A00BE21B9 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D0484828B5BC7600BE21B9 /* MeetingView.swift */; };
 		52D0487328B5BC7A00BE21B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D0484928B5BC7A00BE21B9 /* Assets.xcassets */; };
 		52D0487428B5BC7A00BE21B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D0484928B5BC7A00BE21B9 /* Assets.xcassets */; };
+		52D0488528B5CBF800BE21B9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D0488428B5CBF800BE21B9 /* Theme.swift */; };
+		52D0488728B5CF8400BE21B9 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D0488628B5CF8400BE21B9 /* DailyScrum.swift */; };
+		52D0488B28B5D9F700BE21B9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D0488A28B5D9F700BE21B9 /* CardView.swift */; };
+		52D0488D28B5DD2000BE21B9 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D0488C28B5DD2000BE21B9 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		52D0486728B5BC7A00BE21B9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D0486B28B5BC7A00BE21B9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		52D0486D28B5BC7A00BE21B9 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		52D0488428B5CBF800BE21B9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		52D0488628B5CF8400BE21B9 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		52D0488A28B5D9F700BE21B9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		52D0488C28B5DD2000BE21B9 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,12 @@
 		52D0484628B5BC7600BE21B9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				52D0488328B5CBD400BE21B9 /* Models */,
 				52D0484728B5BC7600BE21B9 /* ScrumAppApp.swift */,
 				52D0484828B5BC7600BE21B9 /* MeetingView.swift */,
 				52D0484928B5BC7A00BE21B9 /* Assets.xcassets */,
+				52D0488A28B5D9F700BE21B9 /* CardView.swift */,
+				52D0488C28B5DD2000BE21B9 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -139,6 +150,15 @@
 				52D0486D28B5BC7A00BE21B9 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		52D0488328B5CBD400BE21B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52D0488428B5CBF800BE21B9 /* Theme.swift */,
+				52D0488628B5CF8400BE21B9 /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +319,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D0488728B5CF8400BE21B9 /* DailyScrum.swift in Sources */,
+				52D0488D28B5DD2000BE21B9 /* TrailingIconLabelStyle.swift in Sources */,
+				52D0488528B5CBF800BE21B9 /* Theme.swift in Sources */,
 				52D0487128B5BC7A00BE21B9 /* MeetingView.swift in Sources */,
 				52D0486F28B5BC7A00BE21B9 /* ScrumAppApp.swift in Sources */,
+				52D0488B28B5D9F700BE21B9 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
